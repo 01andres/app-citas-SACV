@@ -216,7 +216,7 @@ document.getElementById("close").addEventListener("click",function(){
   // localStorage.createElement("sesion");
   // localStorage.setItem("sesion", 1);
   // localStorage.setItem("sesion", 0);
-  window.location = "/prototipo_app/html/index.html"
+  window.location = "../index.html"
 
   // window.onload = function(){
   //   if(!localStorage.getItem("id")){
