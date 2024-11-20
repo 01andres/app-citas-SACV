@@ -66,3 +66,12 @@ document.getElementById("show-password").addEventListener("change", function () 
     passwordField.type = "password";
   }
 });
+
+// boton sing up 
+document.getElementById("signUpButton").addEventListener("click",function(){
+  localStorage.removeItem("id")
+  // localStorage.createElement("sesion");
+  // localStorage.setItem("sesion", 1);
+  // localStorage.setItem("sesion", 0);
+  window.location = "../index.html"
+})
